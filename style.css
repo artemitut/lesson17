@@ -1,0 +1,96 @@
+.card{
+    margin: 5px auto;
+    min-width: 330px;
+    min-height: 550px;
+}
+.col{
+    max-width: 330px;
+}
+img{
+    margin: 30px 0px 0px 0px ;
+}
+.card-img-top-1{
+    width: 330px;
+    margin: 28px auto;
+}
+.card-img-top-2{
+    width: 298px;
+    margin: 30px auto;
+
+}
+.card-img-top-3{
+    margin: 12px auto 0px auto;
+    width: 290px;
+}
+.card-img-top-4{
+    margin: 57px auto;
+    width: 270px;
+}
+.bi1{
+    fill: rgb(56, 56, 56);
+    float: left;
+    margin: 5px;
+}
+.bi2{
+    fill: red;
+    float: right;
+    margin: 5px;
+}
+.icon1{
+    width: 100%;
+}
+.divbtn{
+    text-align: center;
+    width: 100%;
+}
+.btn{
+    width: 90%;
+    background-color: #ffc107;
+    border: 0px solid black;
+    transition: 0.2s;
+    color: black;
+}
+.btn:hover{
+    background-color:#faca3a ;
+    transition: 0.2s;
+    color: black;
+}
+.badge {
+    display: inline-block;
+    padding: 0.35em 0.65em;
+    font-size: .75em;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+}
+.float-start {
+    float: left!important;
+}
+.text-muted {
+    --bs-text-opacity: 1;
+    color: #6c757d!important;
+}
+.mb-3 {
+    margin: 7px;
+}
+.label-top {
+    position: absolute;
+    background-color: var(--label-index);
+    color: #fff;
+    top: 8px;
+    right: 8px;
+    padding: 2.5px 5px 2.5px 5px;
+    font-size: 10px;
+    font-weight: 600;
+    border-radius: 3px;
+    text-transform: uppercase;
+    background-color: purple;
+    text-decoration: none;
+}
+.text-white {
+    color: rgba(var(--bs-white-rgb),var(--bs-text-opacity))!important;
+}
